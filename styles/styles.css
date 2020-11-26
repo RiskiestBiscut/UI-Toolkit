@@ -648,9 +648,28 @@ a:visited {
   font-size: 1.1em;
   padding: 0.3em;
 }
-
+@media screen and (min-width: 980px) {
+  html{
+    font-size: 12px;
+  }
+}
 @media screen and (min-width: 1280px) {
   html{
-    font-size: 24px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html{
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1640px) {
+  html{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1840px) {
+  html{
+    font-size: 20px;
   }
 }
